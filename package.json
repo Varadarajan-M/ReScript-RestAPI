@@ -10,7 +10,11 @@
 		"rs": "rescript build -w",
 		"rb": "rescript build -with-deps"
 	},
-	"keywords": [],
+	"keywords": [
+	"ReScript",
+    	"express",
+	"rescript api"
+	],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
