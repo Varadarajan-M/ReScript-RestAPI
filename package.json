@@ -1,0 +1,24 @@
+{
+	"name": "restapi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon ./src/server.js",
+		"start": "nodemon ./src/app.bs.js",
+		"rc": "rescript clean -with-deps",
+		"rs": "rescript build -w",
+		"rb": "rescript build -with-deps"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.13.5",
+		"nodemon": "^2.0.12"
+	},
+	"devDependencies": {
+		"rescript": "^9.1.4"
+	}
+}
